@@ -1,2 +1,2 @@
-# udemy
-Udemy Learning projects
+# Gradle Learning
+Gradle Learning projects
