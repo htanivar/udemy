@@ -4,6 +4,9 @@
 4. http://cli.angular.io
 5. http://angular.io/guide/file-structure
 6. www.getbootstrap.com
+7. http://angular.io/api/common#directives
+8. http://angular.io/api/common/CurrencyPipe
+9. http://angular.io/api/common#pipes
 
 |Term|Definition|
 ---|---|
@@ -53,6 +56,9 @@
 |Angular Commands||
 ---|---
 |*ngFor| For loop|
+|*ngIf| If Condition|
+|*ngSwitch| switch statement|
+|*ngStyle| style|
 
 
 **app.component.html**
