@@ -46,6 +46,7 @@
 |`ng new <your-project-name>`| Create a new angular project|
 |`ng serve --open`| deploy web application|
 |`ng serve --port 5001 --host 0.0.0.0`| deploy web application on specifi port on remote server|
+|`ng generate component <required-component-name>`| Create new comonent for the project|
 
 
 **app.component.html**
@@ -59,3 +60,13 @@
 **app.module.ts**
 
 1. The Main Component is here `bootstrap: [AppComponent]`
+
+
+**Basic Development process**
+1. Create a new project
+2. Update Main template page
+3. Generate new component
+4. Add New component selector to app template page
+5. Generate a SalesPerson class
+6. In SalesPersonListComponent, create same data
+7. In sales-person-list template file, build HTML table by looping over data
