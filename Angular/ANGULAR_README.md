@@ -41,6 +41,9 @@
 |`ng serve --port 5001 --host 0.0.0.0`| deploy web application on specifi port on remote server|
 
 
+**app.component.html**
+  
+
 
 
 
