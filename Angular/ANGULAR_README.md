@@ -62,6 +62,7 @@
 3. Where the <app-root> tag is defined?
    1. app-root is some where defined in a component (probably app.component.ts selector:)
 
+
 **app.module.ts**
 
 1. The Main Component is here `bootstrap: [AppComponent]`
@@ -84,3 +85,4 @@
   |sales-person-list.component.spec.ts|the unit test specifications|
   |UPDATE src/app/app.module.ts|Adds the component to the main application module|
 
+1. The Main Component is here `bootstrap: [AppComponent]`
