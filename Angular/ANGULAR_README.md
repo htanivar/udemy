@@ -38,7 +38,7 @@
 |`ng help`|NG help|
 |`ng new <your-project-name>`| Create a new angular project|
 |`ng serve --open`| deploy web application|
-|`ng serve --port 5100`| deploy web application on specifi port|
+|`ng serve --port 5001 --host 0.0.0.0`| deploy web application on specifi port on remote server|
 
 
 
