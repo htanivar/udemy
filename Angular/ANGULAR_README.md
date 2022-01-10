@@ -11,6 +11,13 @@
 | **Directive** |Adds custom behavior to HTML Elements </br> Used for looping, conditionals etc|
 | **Service** |Helper class that provides desired functionality </br> Retrieving data from a server, performing a calculation, validation etc|
 | **Module** |A collection of related componnents directives, services etc|
+|**Decorator**|-|
+
+
+|`@Component`| is an Angular Decorator similar to Annotations in Java(selector,templateUrl,styleUrls)|
+
+
+
 
 
 
@@ -42,8 +49,13 @@
 
 
 **app.component.html**
-  
 
 
+1. index.html is the main file  
+2. index.html content is --> <app-root></app-root>
+3. Where the <app-root> tag is defined?
+   1. app-root is some where defined in a component (probably app.component.ts selector:)
 
+**app.module.ts**
 
+1. The Main Component is here `bootstrap: [AppComponent]`
