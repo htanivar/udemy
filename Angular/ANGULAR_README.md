@@ -17,6 +17,10 @@
 |`@Component`| is an Angular Decorator similar to Annotations in Java(selector,templateUrl,styleUrls)|
 
 
+
+
+
+
 |Key Files|Purpose|
 ---|---|
 |angular.json|Angular Workspace configuration & List of execution targets|
@@ -46,6 +50,7 @@
 
 **app.component.html**
 
+
 1. index.html is the main file  
 2. index.html content is --> <app-root></app-root>
 3. Where the <app-root> tag is defined?
@@ -54,5 +59,3 @@
 **app.module.ts**
 
 1. The Main Component is here `bootstrap: [AppComponent]`
-
-
