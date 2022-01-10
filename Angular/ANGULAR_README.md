@@ -3,6 +3,7 @@
 3. www.luv2code.com/angular-install-guides
 4. http://cli.angular.io
 5. http://angular.io/guide/file-structure
+6. www.getbootstrap.com
 
 |Term|Definition|
 ---|---|
@@ -68,14 +69,6 @@
 1. The Main Component is here `bootstrap: [AppComponent]`
 
 
-**Basic Development process**
-1. Create a new project
-2. Update Main template page
-3. Generate new component
-4. Add New component selector to app template page
-5. Generate a SalesPerson class
-6. In SalesPersonListComponent, create same data
-7. In sales-person-list template file, build HTML table by looping over data
 
 |Generated Files for Component|Purpose|
  ---|---|
@@ -86,3 +79,23 @@
   |UPDATE src/app/app.module.ts|Adds the component to the main application module|
 
 1. The Main Component is here `bootstrap: [AppComponent]`
+
+
+**Basic Development process**
+1. Create a new project
+2. Update Main template page
+3. Generate new component
+4. Add New component selector to app template page
+5. Generate a SalesPerson class
+6. In SalesPersonListComponent, create same data
+7. In sales-person-list template file, build HTML table by looping over data
+
+
+**Bootstrap Development process**
+1. Get links for remote Bootstrap files
+2. Add Links to index.html
+3. Apply Bootstrap CSS styles in component template
+4. Apply Bootstrap CSS styles in HTML table
+5. Update TypeScript components file to reference Bootstrap HTML template
+
+
