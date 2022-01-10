@@ -43,9 +43,15 @@
 |`npm install -g @angular/cli`  | Install Angular CLI Globally|
 |`ng version`| NG Version|
 |`ng help`|NG help|
-|`ng new <your-project-name>`| Create a new angular project|
 |`ng serve --open`| deploy web application|
 |`ng serve --port 5001 --host 0.0.0.0`| deploy web application on specifi port on remote server|
+|`ng new <your-project-name>`| Create a new angular project|
+|`ng generate component <required-component-name>`| Create new comonent for the project|
+|`ng generate class sales-person-list/SalesPerson`|Create a new Class|
+
+|Angular Commands||
+---|---
+|*ngFor| For loop|
 
 
 **app.component.html**
@@ -59,3 +65,22 @@
 **app.module.ts**
 
 1. The Main Component is here `bootstrap: [AppComponent]`
+
+
+**Basic Development process**
+1. Create a new project
+2. Update Main template page
+3. Generate new component
+4. Add New component selector to app template page
+5. Generate a SalesPerson class
+6. In SalesPersonListComponent, create same data
+7. In sales-person-list template file, build HTML table by looping over data
+
+|Generated Files for Component|Purpose|
+ ---|---|
+  |sales-person-list.component.ts|The Component Class|
+  |sales-person-list.component.html|The Component template HTML|
+  |sales-person-list.component.css|The Component private CSS|
+  |sales-person-list.component.spec.ts|the unit test specifications|
+  |UPDATE src/app/app.module.ts|Adds the component to the main application module|
+
