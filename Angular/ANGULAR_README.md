@@ -43,10 +43,11 @@
 |`npm install -g @angular/cli`  | Install Angular CLI Globally|
 |`ng version`| NG Version|
 |`ng help`|NG help|
-|`ng new <your-project-name>`| Create a new angular project|
 |`ng serve --open`| deploy web application|
 |`ng serve --port 5001 --host 0.0.0.0`| deploy web application on specifi port on remote server|
+|`ng new <your-project-name>`| Create a new angular project|
 |`ng generate component <required-component-name>`| Create new comonent for the project|
+|`ng generate class sales-person-list/SalesPerson`|Create a new Class|
 
 
 **app.component.html**
