@@ -49,6 +49,10 @@
 |`ng generate component <required-component-name>`| Create new comonent for the project|
 |`ng generate class sales-person-list/SalesPerson`|Create a new Class|
 
+|Angular Commands||
+---|---
+|*ngFor| For loop|
+
 
 **app.component.html**
 
