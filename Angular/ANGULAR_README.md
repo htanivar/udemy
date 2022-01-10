@@ -3,6 +3,7 @@
 3. www.luv2code.com/angular-install-guides
 4. http://cli.angular.io
 5. http://angular.io/guide/file-structure
+6. www.getbootstrap.com
 
 |Term|Definition|
 ---|---|
