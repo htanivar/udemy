@@ -1,6 +1,7 @@
 https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickeyi
-eval "$(ssh-agent -s)"
-ssh -vT git@github.com
-ssh -T GITHUB-USERNAME@github.com
-ssh-add -l -E sha256
-ssh-add ~/.ssh/id_<yourfile>_
+
+|Commands|Purpose|
+---|---|
+|Adding ssh identity into ssh agent|```eval "$(ssh-agent -s)" </br> ssh -vT git@github.com </br> ssh -T GITHUB-USERNAME@github.com </br> ssh-add -l -E sha256 /br> ssh-add ~/.ssh/id_<yourfile>|
+
+
