@@ -62,6 +62,14 @@
 |*ngSwitch| switch statement|
 |*ngStyle| style|
 
+  
+|Router Key Terminology||
+---|---
+|Router | Main routing service. Enables navigation between views based on user actions.  |  
+|Route |Maps a URL Path to the component  |
+|RouterOutlet| Acts as a place holder. Renders the desired component based on route |
+|RouterLink|Link to specific routes in your application|
+|ActivatedRoute| The current active route that is acticated in the component, useful for accessing route parameters |
 
 **app.component.html**
 
