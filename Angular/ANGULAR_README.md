@@ -113,3 +113,15 @@
 5. Update TypeScript components file to reference Bootstrap HTML template
 
 
+Integrate Online Shopping Template
+**Release Plan 2.0**
+1. Online Shopping Template Integration
+2. Search for Products by Category
+3. Searcy for Products by text box
+4. Master / Detail view of product
+5. Pagination support for products
+6. Add Product to shopping cart
+7. Shopping cart check out
+  
+  
+  
