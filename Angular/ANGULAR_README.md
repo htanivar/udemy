@@ -53,6 +53,7 @@
 |`ng generate component <required-component-name>`| Create new comonent for the project|
 |`ng generate class sales-person-list/SalesPerson`|Create a new Class|
 |`npm install bootstrap`|Install Bootstrap via NPM|
+|`npm install @fortawesom`|Install fortawesome via NPM|
 
 |Angular Commands||
 ---|---
