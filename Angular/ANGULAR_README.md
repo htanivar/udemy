@@ -52,6 +52,7 @@
 |`ng new <your-project-name>`| Create a new angular project|
 |`ng generate component <required-component-name>`| Create new comonent for the project|
 |`ng generate class sales-person-list/SalesPerson`|Create a new Class|
+|`npm install bootstrap`|Install Bootstrap via NPM|
 
 |Angular Commands||
 ---|---
